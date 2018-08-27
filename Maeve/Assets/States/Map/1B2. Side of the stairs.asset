@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbeb6546437444cb195a7da63446db, type: 3}
+  m_Name: 1B2. Side of the stairs
+  m_EditorClassIdentifier: 
+  storyText: "When you decide to go from side of the stairs, most probably you will
+    face the enemy healer but it is also possible meet the enemy damage dealer.So
+    you have following options:\r\n1.Kill the healer.\r\n2.Get killed by healer.\n3.Kill
+    the Damage dealer if present.\r\n4.Get killed by damage dealer."
+  nextStates:
+  - {fileID: 11400000, guid: cfc06f46869c7c045889631434744416, type: 2}
+  - {fileID: 11400000, guid: c440ce81d9594604cbf6b189f4d40961, type: 2}
+  - {fileID: 11400000, guid: bbb2c2bd432d32946bffd3bad1372827, type: 2}
+  - {fileID: 11400000, guid: c440ce81d9594604cbf6b189f4d40961, type: 2}

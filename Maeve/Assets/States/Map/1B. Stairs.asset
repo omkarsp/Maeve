@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbeb6546437444cb195a7da63446db, type: 3}
+  m_Name: 1B. Stairs
+  m_EditorClassIdentifier: 
+  storyText: "When you decide to go right you will get to the stairs area then you
+    have two options:\r\n1.Go from above the stairs and face the enemy front line
+    players.\r\n2.Go from from the side of the stairs and face the healer in the enemy
+    back line."
+  nextStates:
+  - {fileID: 11400000, guid: f6875025a541dbb40b09d7a970245d61, type: 2}
+  - {fileID: 11400000, guid: e728ddbda40a92d41888451cfede6f54, type: 2}

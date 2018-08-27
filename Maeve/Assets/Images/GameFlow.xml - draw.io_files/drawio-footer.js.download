@@ -1,0 +1,22 @@
+Draw.loadPlugin(function(ui){var rotate=mxUtils.bind(this,function(elt,html,delay,fn)
+{delay=(delay!=null)?delay:500;mxUtils.setPrefixedStyle(elt.style,'transition','all '+(delay/1000)+'s ease');mxUtils.setPrefixedStyle(elt.style,'transform','scale(0)');elt.style.visibility='visible';elt.style.opacity='0';window.setTimeout(function()
+{elt.innerHTML=html;mxUtils.setPrefixedStyle(elt.style,'transform','scale(1)');elt.style.opacity='1';if(fn!=null)
+{fn();}},delay);});var td2=document.getElementById('geFooterItem1');if(td2!=null)
+{td2.innerHTML='<a id="geFooterLink1" title="Try the Minimal experience" target="_blank" '+
+'href="https://www.draw.io/?ui=min&splash=0">'+
+'Try the Minimal experience</a>';}
+var td=document.getElementById('geFooterItem2');if(td!=null&&mxClient.IS_SVG)
+{var last=[td.innerHTML];mxEvent.addListener(td,'click',function()
+{if(last.length>0)
+{rotate(td,last.pop());}});td.innerHTML='<a title="Download draw.io Desktop" href="https://get.draw.io/" target="_blank">'+
+'<img border="0" align="absmiddle" style="margin-top:-2px;padding-right:10px;" width="26" src="images/drawlogo48.png">Download draw.io Desktop</a>';var userChanged=function()
+{td.innerHTML='<a title="10pc gsuite discount" href="https://gsuite.seibert-media.net/en/?utm_source=drawio&utm_medium=footerbutton" target="_blank">'+
+'Get 10% off your GSuite</a>';};var install=function()
+{if(ui.drive!=null)
+{if(ui.drive.getUser()!=null)
+{userChanged();}
+else
+{ui.drive.addListener('userChanged',userChanged);}}};if(ui.drive!=null)
+{install();}
+else
+{ui.addListener('clientLoaded',install);}}});

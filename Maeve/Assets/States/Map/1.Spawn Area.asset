@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbeb6546437444cb195a7da63446db, type: 3}
+  m_Name: 1.Spawn Area
+  m_EditorClassIdentifier: 
+  storyText: "Enemies are waiting for you at the other end of the map and eventually
+    they will come for you.So plan your actions in order to succeed.\r\n\r\n1.Go left\r\n\r\n2.Go
+    right"
+  nextStates:
+  - {fileID: 11400000, guid: ea509d33c5439b543abf1abc358e7cb9, type: 2}
+  - {fileID: 11400000, guid: b0cbcfa9162c2a3498e4b9a722e148bd, type: 2}

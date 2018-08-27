@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbeb6546437444cb195a7da63446db, type: 3}
+  m_Name: X1.Defeat
+  m_EditorClassIdentifier: 
+  storyText: "X1.DEFEAT\r\n\r\nLooks like your plan failed.\r\nBut its just one battle.
+    You have the whole war ahead.\r\nWant to fight again?\r\n1. Yes\r\n2.No\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 7488261ef489ecb4f8ce708dec92c5fb, type: 2}
+  - {fileID: 11400000, guid: 4e7ffeb43e3a877419c3dca9d9f36726, type: 2}

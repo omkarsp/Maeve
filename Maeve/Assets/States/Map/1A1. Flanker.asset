@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbeb6546437444cb195a7da63446db, type: 3}
+  m_Name: 1A1. Flanker
+  m_EditorClassIdentifier: 
+  storyText: "Enemy flanker is in the similar position as you. So you have to be one
+    step ahead of him to kill him or he WILL kill you which you cant afford. So, there
+    are 2 possibilities :\r\n1.Kill the flanker and go for enemy back line\r\n2. Die
+    by flankers."
+  nextStates:
+  - {fileID: 11400000, guid: cfc06f46869c7c045889631434744416, type: 2}
+  - {fileID: 11400000, guid: c440ce81d9594604cbf6b189f4d40961, type: 2}
